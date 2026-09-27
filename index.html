@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pacific Tower — Premium 3 BHK Residences, Shantinagar, Nagpur</title>
+<meta name="description" content="Pacific Tower by Pacific Projects — G+6 residential tower with premium 3 BHK flats and a full-floor 4 BHK option on Shantinagar Road, Nagpur. Explore floor plans, specifications and book a visit.">
+<meta property="og:title" content="Pacific Tower — A project by Pacific Projects">
+<meta property="og:description" content="Premium 3 BHK residences on Shantinagar Road, Nagpur. Explore every flat and its floor plan.">
+<meta property="og:image" content="assets/tower-angle-3.jpg">
+<meta name="theme-color" content="#1b2a44">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#f5f2eb;
+  --paper:#fbfaf6;
+  --sand:#e9e4d8;
+  --olive:#8a8570;
+  --olive-d:#6c6857;
+  --navy:#1b2a44;
+  --navy-2:#223759;
+  --blue:#2f6fc4;
+  --gold:#b48c52;
+  --gold-l:#d8b983;
+  --ink:#1d1f24;
+  --muted:#6b6b66;
+  --line:rgba(27,42,68,.12);
+  --wa:#1faa59;
+  --radius:18px;
+  --shadow:0 24px 60px -24px rgba(27,42,68,.35);
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:"Manrope",system-ui,sans-serif;color:var(--ink);background:var(--ivory);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+.eyebrow{font-size:.74rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-weight:600;display:inline-flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor}
+h1,h2,h3{font-weight:400}
+.display{font-family:"Italiana",serif;letter-spacing:.04em}
+h2.title{font-family:"Italiana",serif;font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.08;color:var(--navy);margin:14px 0 14px}
+.lead{color:var(--muted);max-width:620px;font-size:1.02rem}
+section{padding:110px 0}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-weight:600;font-size:.92rem;letter-spacing:.02em;transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .3s}
+.btn svg{width:18px;height:18px;flex:none}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:#fff;box-shadow:0 10px 30px -10px rgba(180,140,82,.8)}
+.btn-gold:hover{background:#a37d46}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 10px 30px -10px rgba(31,170,89,.7)}
+.btn-wa:hover{background:#178f4a}
+.btn-ghost{border:1px solid rgba(255,255,255,.55);color:#fff;backdrop-filter:blur(6px);background:rgba(255,255,255,.08)}
+.btn-ghost:hover{background:rgba(255,255,255,.18)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-2)}
+.btn-line{border:1px solid var(--line);color:var(--navy);background:#fff}
+.btn-line:hover{border-color:var(--navy)}
+
+/* ---------- Nav ---------- */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .4s,box-shadow .4s,padding .4s;padding:18px 0}
+.nav.solid{background:rgba(251,250,246,.92);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line);padding:10px 0}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;color:#fff;transition:color .4s}
+.brand img{height:40px;width:auto}
+.brand .logo-dark{display:none}
+.nav.solid .brand{color:var(--navy)}
+.nav.solid .brand .logo-dark{display:block}
+.nav.solid .brand .logo-light{display:none}
+.brand b{font-family:"Italiana",serif;font-weight:400;font-size:1.45rem;letter-spacing:.14em;line-height:1}
+.brand small{display:block;font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:4px}
+.links{display:flex;gap:30px;font-size:.86rem;font-weight:500;color:rgba(255,255,255,.88)}
+.nav.solid .links{color:var(--ink)}
+.links a{position:relative;padding:6px 0}
+.links a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--gold);transition:right .35s var(--ease)}
+.links a:hover::after{right:0}
+.nav-cta{display:flex;gap:10px}
+.nav-cta .btn{padding:10px 18px;font-size:.84rem}
+.burger{display:none;width:44px;height:44px;border-radius:50%;color:#fff}
+.nav.solid .burger{color:var(--navy)}
+.burger svg{width:24px;height:24px;margin:auto}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:100svh;color:#fff;overflow:hidden;background:radial-gradient(120% 90% at 85% 20%,#2c4a78 0%,var(--navy) 45%,#0f1828 100%);display:flex;align-items:center;padding:120px 0 70px}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(90deg,#000 0%,transparent 70%);-webkit-mask-image:linear-gradient(90deg,#000 0%,transparent 70%)}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
+.hero-sun{width:120px;margin-bottom:14px;opacity:.95}
+.hero .eyebrow{color:var(--gold-l);letter-spacing:.28em}
+.hero h1{font-family:"Italiana",serif;font-size:clamp(3.2rem,8.2vw,7.4rem);line-height:.92;letter-spacing:.06em;margin:18px 0 22px}
+.hero h1 span{display:block}
+.hero h1 span:last-child{color:var(--gold-l)}
+.hero p.tag{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:clamp(1.2rem,2vw,1.55rem);max-width:520px;color:rgba(255,255,255,.88);line-height:1.45}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero-facts{display:flex;gap:0;margin-top:44px;border-top:1px solid rgba(255,255,255,.14);max-width:540px}
+.hero-facts div{flex:1;padding:18px 16px 0 0}
+.hero-facts b{display:block;font-family:"Italiana",serif;font-weight:400;font-size:1.9rem;color:#fff;line-height:1}
+.hero-facts span{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.hero-visual{position:relative;justify-self:end;width:min(100%,500px)}
+.hero-arch{position:relative;border-radius:260px 260px 26px 26px;overflow:hidden;aspect-ratio:4/5.2;box-shadow:0 50px 90px -30px rgba(0,0,0,.7);border:1px solid rgba(255,255,255,.18)}
+.hero-arch img{width:100%;height:100%;object-fit:cover;object-position:center 30%;transform:scale(1.1);animation:heroZoom 16s var(--ease) forwards}
+@keyframes heroZoom{to{transform:scale(1)}}
+.hero-ring{position:absolute;inset:-18px -18px auto -18px;height:calc(100% + 36px);border:1px solid rgba(216,185,131,.45);border-radius:280px 280px 34px 34px;pointer-events:none}
+.hero-card{position:absolute;left:-48px;bottom:56px;background:var(--paper);color:var(--ink);border-radius:18px;padding:16px 20px;box-shadow:0 24px 50px -20px rgba(0,0,0,.55);display:flex;gap:14px;align-items:center}
+.hero-card img{width:46px}
+.hero-card b{display:block;font-family:"Italiana",serif;font-size:1.5rem;color:var(--navy);line-height:1}
+.hero-card span{font-size:.76rem;color:var(--muted)}
+.hero-pill{position:absolute;right:-14px;top:70px;background:var(--gold);color:#fff;border-radius:999px;padding:10px 16px;font-size:.78rem;font-weight:700;letter-spacing:.06em;box-shadow:0 16px 30px -12px rgba(180,140,82,.9)}
+
+@keyframes heroZoom{to{transform:scale(1)}}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.reveal-up{opacity:0;transform:translateY(30px);animation:up 1.1s var(--ease) forwards}
+@keyframes up{to{opacity:1;transform:none}}
+/* ---------- Stats ---------- */
+.stats{background:var(--navy);color:#fff;padding:0}
+.stats .wrap{display:grid;grid-template-columns:repeat(5,1fr)}
+.stat{padding:34px 22px;border-right:1px solid rgba(255,255,255,.1)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:"Italiana",serif;font-weight:400;font-size:2.2rem;line-height:1;color:var(--gold-l)}
+.stat span{font-size:.8rem;color:rgba(255,255,255,.7);letter-spacing:.04em}
+
+/* ---------- Overview ---------- */
+.overview .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:70px;align-items:center}
+.ov-media{position:relative}
+.ov-media .arch{border-radius:260px 260px 22px 22px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/5}
+.ov-media .arch img{width:100%;height:100%;object-fit:cover}
+.ov-media .float{position:absolute;right:-28px;bottom:40px;width:46%;border-radius:16px;overflow:hidden;border:6px solid var(--paper);box-shadow:var(--shadow)}
+.ov-media .sun{position:absolute;left:-30px;top:40px;width:90px;opacity:.9}
+.ov-points{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}
+.ov-point{padding:18px 18px 18px 0;border-top:1px solid var(--line)}
+.ov-point b{display:block;color:var(--navy);font-weight:600;font-size:.95rem}
+.ov-point span{font-size:.86rem;color:var(--muted)}
+
+/* ---------- Floor plan cards ---------- */
+.plans{background:linear-gradient(180deg,var(--paper),var(--sand))}
+.pcards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:50px}
+.pcard{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 1px 0 var(--line),0 24px 50px -30px rgba(27,42,68,.4);cursor:pointer;display:flex;flex-direction:column;transition:transform .4s var(--ease),box-shadow .4s var(--ease);text-align:left;width:100%}
+.pcard:hover,.pcard:focus-visible{transform:translateY(-8px);box-shadow:0 1px 0 var(--line),0 40px 70px -30px rgba(27,42,68,.55);outline:none}
+.pcard .thumb{position:relative;background:#fff;aspect-ratio:4/5;padding:22px;border-bottom:1px solid var(--line);overflow:hidden}
+.pcard .thumb img{width:100%;height:100%;object-fit:contain;transition:transform .8s var(--ease)}
+.pcard:hover .thumb img{transform:scale(1.05)}
+.pcard .tag{position:absolute;left:16px;top:16px;background:var(--navy);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px;border-radius:999px}
+.pcard .open{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:.84rem;font-weight:600;padding:11px 20px;border-radius:999px;display:flex;align-items:center;gap:8px;white-space:nowrap;box-shadow:0 12px 26px -10px rgba(180,140,82,.9);transition:background .3s}
+.pcard:hover .open{background:var(--navy)}
+.pcard .open svg{width:16px;height:16px}
+.pcard .body{padding:22px 24px 24px}
+.pcard h3{font-family:"Italiana",serif;font-size:2rem;color:var(--navy);line-height:1.1}
+.pcard p{color:var(--muted);font-size:.9rem;margin:6px 0 16px}
+.pcard .meta{display:flex;gap:8px;flex-wrap:wrap}
+.pcard .meta span{background:var(--ivory);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.78rem;font-weight:600;color:var(--navy)}
+.area-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
+.area-card{background:var(--navy);color:#fff;border-radius:14px;padding:14px 16px}
+.area-card b{font-family:"Italiana",serif;font-weight:400;font-size:1.7rem;display:block;color:var(--gold-l);line-height:1.1}
+.area-card span{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.rooms{list-style:none;border-top:1px solid var(--line)}
+.rooms li{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);font-size:.88rem}
+.rooms li span:last-child{color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* ---------- Specs ---------- */
+.specs{background:var(--olive);color:#fff;position:relative;overflow:hidden}
+.specs::before{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;border:1px solid rgba(255,255,255,.15)}
+.specs h2.title{color:#fff}
+.specs .lead{color:rgba(255,255,255,.8)}
+.spec-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:50px}
+.spec{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:20px;padding:26px 22px;transition:background .3s,transform .3s var(--ease)}
+.spec:hover{background:rgba(255,255,255,.13);transform:translateY(-4px)}
+.spec .ic{width:48px;height:48px;border-radius:14px;background:var(--paper);color:var(--navy);display:grid;place-items:center;margin-bottom:18px}
+.spec .ic svg{width:24px;height:24px}
+.spec h4{font-family:"Cormorant Garamond",serif;font-size:1.35rem;font-weight:600;margin-bottom:8px;letter-spacing:.02em}
+.spec ul{list-style:none;font-size:.86rem;color:rgba(255,255,255,.82)}
+.spec li{padding-left:14px;position:relative;margin-bottom:6px}
+.spec li::before{content:"";position:absolute;left:0;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--gold-l)}
+
+/* ---------- Interiors ---------- */
+.interiors .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.int-card{position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow)}
+.int-card img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.int-card:hover img{transform:scale(1.06)}
+.int-card figcaption{position:absolute;inset:auto 0 0 0;padding:26px 22px;color:#fff;background:linear-gradient(transparent,rgba(12,19,32,.85))}
+.int-card figcaption b{font-family:"Cormorant Garamond",serif;font-size:1.5rem;font-weight:600;display:block}
+.int-card figcaption span{font-size:.84rem;opacity:.85}
+.int-head{margin-bottom:40px}
+
+/* ---------- Amenities ---------- */
+.amen{background:var(--paper)}
+.amen-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.amen-item{padding:30px 24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.amen-item svg{width:30px;height:30px;color:var(--gold);margin-bottom:14px}
+.amen-item b{display:block;color:var(--navy);font-weight:600;margin-bottom:4px}
+.amen-item span{font-size:.86rem;color:var(--muted)}
+
+/* ---------- Gallery ---------- */
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:260px;gap:14px;margin-top:44px}
+.g-item{border-radius:18px;overflow:hidden;position:relative;cursor:zoom-in}
+.g-item img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease)}
+.g-item:hover img{transform:scale(1.05)}
+.g-item.big{grid-column:span 2;grid-row:span 2}
+.g-item.tall{grid-row:span 2}
+
+/* ---------- Note ---------- */
+.note{padding:0 0 110px;background:var(--paper)}
+.note-box{border:1px solid var(--line);border-radius:24px;background:#fff;padding:34px 38px;display:grid;grid-template-columns:auto 1fr 1fr;gap:40px;align-items:start}
+.note-box .ic{width:56px;height:56px;border-radius:50%;background:#fbecd9;color:#b3661d;display:grid;place-items:center}
+.note-box .ic svg{width:26px;height:26px}
+.note-box h4{font-family:"Cormorant Garamond",serif;font-size:1.35rem;color:var(--navy);margin-bottom:8px;font-weight:600}
+.note-box ul{list-style:none;font-size:.9rem;color:var(--muted)}
+.note-box li{padding:4px 0 4px 18px;position:relative}
+.note-box li::before{content:"—";position:absolute;left:0;color:var(--gold)}
+
+/* ---------- Contact ---------- */
+.contact{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.contact::after{content:"";position:absolute;inset:0;background:url(assets/sky-tower.jpg) center/cover;opacity:.12;mix-blend-mode:luminosity}
+.contact .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.contact h2.title{color:#fff}
+.contact .lead{color:rgba(255,255,255,.75)}
+.people{display:grid;gap:16px;margin-top:34px}
+.person{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:22px}
+.person-top{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.avatar{width:48px;height:48px;border-radius:50%;background:var(--gold);display:grid;place-items:center;font-family:"Italiana",serif;font-size:1.3rem;color:#fff}
+.person b{font-size:1.05rem;display:block}
+.person small{color:rgba(255,255,255,.6);font-size:.78rem}
+.num-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid rgba(255,255,255,.1);flex-wrap:wrap}
+.num-row .n{font-variant-numeric:tabular-nums;letter-spacing:.03em}
+.num-row .acts{display:flex;gap:8px}
+.mini{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;font-size:.8rem;font-weight:600;transition:transform .2s}
+.mini:hover{transform:translateY(-1px)}
+.mini svg{width:15px;height:15px}
+.mini.call{background:#fff;color:var(--navy)}
+.mini.wa{background:var(--wa);color:#fff}
+.mail{display:inline-flex;align-items:center;gap:10px;margin-top:20px;color:var(--gold-l);font-weight:600}
+.mail svg{width:18px;height:18px}
+.form{background:var(--paper);color:var(--ink);border-radius:24px;padding:34px;box-shadow:0 30px 60px -30px rgba(0,0,0,.5)}
+.form h3{font-family:"Italiana",serif;font-size:2rem;color:var(--navy);line-height:1.1}
+.form p{font-size:.88rem;color:var(--muted);margin:6px 0 22px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--olive-d);font-weight:600;margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:12px;font:inherit;background:#fff;color:var(--ink);transition:border-color .2s,box-shadow .2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(180,140,82,.15)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form .btn{width:100%;justify-content:center;margin-top:6px}
+
+/* ---------- Footer ---------- */
+footer{background:#111a2b;color:rgba(255,255,255,.6);padding:40px 0 110px;font-size:.84rem}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer .brand{color:#fff}
+
+/* ---------- Floating buttons ---------- */
+.fab{position:fixed;right:22px;bottom:22px;z-index:60;display:flex;flex-direction:column;gap:12px}
+.fab a{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;color:#fff;box-shadow:0 14px 30px -10px rgba(0,0,0,.45);transition:transform .25s var(--ease)}
+.fab a:hover{transform:scale(1.08)}
+.fab a svg{width:28px;height:28px}
+.fab .f-wa{background:var(--wa);position:relative}
+.fab .f-wa::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--wa);animation:ring 2s infinite}
+@keyframes ring{from{transform:scale(1);opacity:.8}to{transform:scale(1.6);opacity:0}}
+.fab .f-call{background:var(--navy)}
+.mbar{display:none}
+
+/* ---------- Modal ---------- */
+.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.modal.open{display:flex}
+.modal-bg{position:absolute;inset:0;background:rgba(10,16,28,.78);backdrop-filter:blur(6px);animation:fade .3s}
+@keyframes fade{from{opacity:0}}
+.modal-card{position:relative;background:var(--paper);border-radius:26px;width:min(1180px,100%);max-height:calc(100svh - 40px);display:grid;grid-template-columns:1fr 380px;overflow:hidden;animation:pop .45s var(--ease);box-shadow:0 40px 100px -30px rgba(0,0,0,.7)}
+@keyframes pop{from{opacity:0;transform:translateY(24px) scale(.97)}}
+.viewer{position:relative;background:#fff;overflow:hidden;min-height:420px;touch-action:none;cursor:grab}
+.viewer.dragging{cursor:grabbing}
+.viewer img{position:absolute;left:50%;top:50%;max-width:94%;max-height:94%;transform-origin:center;user-select:none;-webkit-user-drag:none;transition:transform .15s ease-out}
+.viewer.dragging img{transition:none}
+.v-ctrls{position:absolute;left:16px;bottom:16px;display:flex;gap:6px;z-index:2}
+.v-ctrls button{width:40px;height:40px;border-radius:12px;background:var(--navy);color:#fff;display:grid;place-items:center;box-shadow:0 8px 20px -8px rgba(0,0,0,.4)}
+.v-ctrls button svg{width:18px;height:18px}
+.v-badge{position:absolute;left:16px;top:16px;background:rgba(27,42,68,.9);color:#fff;font-size:.74rem;padding:7px 12px;border-radius:999px;z-index:2}
+.m-side{padding:30px 28px;overflow:auto;display:flex;flex-direction:column}
+.m-close{position:absolute;right:14px;top:14px;width:42px;height:42px;border-radius:50%;background:#fff;box-shadow:0 6px 18px -6px rgba(0,0,0,.3);display:grid;place-items:center;z-index:5;color:var(--navy)}
+.m-close svg{width:20px;height:20px}
+.m-side .eyebrow{margin-bottom:8px}
+.m-side h3{font-family:"Italiana",serif;font-size:2.5rem;color:var(--navy);line-height:1}
+.m-side .floor-name{color:var(--muted);font-size:.9rem;margin:6px 0 18px}
+.m-type{display:flex;gap:6px;margin:0 52px 18px 0}
+.m-type button{flex:1;padding:9px;border-radius:10px;border:1px solid var(--line);font-size:.8rem;font-weight:600;color:var(--navy);background:#fff}
+.m-type button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.m-actions{display:grid;gap:10px;margin-top:auto;padding-top:22px}
+.m-actions .btn{justify-content:center}
+.m-nav{display:flex;justify-content:space-between;gap:10px;margin-top:12px}
+.m-nav button{flex:1;padding:10px;border-radius:12px;border:1px solid var(--line);font-size:.82rem;font-weight:600;color:var(--navy);display:flex;align-items:center;justify-content:center;gap:6px;background:#fff}
+.m-nav button:disabled{opacity:.35;cursor:default}
+.m-nav svg{width:16px;height:16px}
+.disclaimer{font-size:.72rem;color:var(--muted);margin-top:12px}
+
+/* reveal on scroll */
+.rv{opacity:0;transform:translateY(40px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1024px){
+  .links{display:none}
+  .burger{display:grid}
+  .nav-cta .btn span{display:none}
+  .stats .wrap{grid-template-columns:repeat(3,1fr)}
+  .stat:nth-child(3){border-right:0}
+  .stat:nth-child(n+4){border-top:1px solid rgba(255,255,255,.1)}
+  .overview .wrap,.contact .wrap{grid-template-columns:1fr}
+  .hero-grid{grid-template-columns:1fr;gap:56px}
+  .hero-visual{justify-self:center;width:min(100%,440px)}
+  .hero{padding:110px 0 70px}
+  .pcards{grid-template-columns:1fr 1fr}
+  .spec-grid{grid-template-columns:repeat(2,1fr)}
+  .amen-grid{grid-template-columns:repeat(2,1fr)}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:220px}
+  .modal-card{grid-template-columns:1fr;overflow:auto}
+  .viewer{min-height:56svh}
+  .note-box{grid-template-columns:1fr;gap:20px}
+  .ov-media .float{right:-8px}
+}
+@media (max-width:640px){
+  section{padding:80px 0}
+  .wrap{width:calc(100% - 32px)}
+  .nav-cta{display:none}
+  .stats .wrap{grid-template-columns:1fr 1fr}
+  .stat{border-right:1px solid rgba(255,255,255,.1)!important;border-top:1px solid rgba(255,255,255,.1)}
+  .stat:nth-child(2n){border-right:0!important}
+  .stat:nth-child(-n+2){border-top:0}
+  .stat:last-child{grid-column:span 2}
+  .ov-points{grid-template-columns:1fr}
+  .spec-grid,.interiors .wrap{grid-template-columns:1fr}
+  .amen-item{padding:22px 16px}
+  .amen-item span{font-size:.8rem}
+  .interiors .int-card{aspect-ratio:4/3}
+  .gallery-grid{grid-auto-rows:170px}
+  .g-item.big{grid-column:span 2;grid-row:span 1}
+  .pcards{grid-template-columns:1fr}
+  .hero{padding:96px 0 56px;min-height:auto}
+  .hero-grid{gap:44px}
+  .hero-sun{width:90px}
+  .hero h1{font-size:4.4rem}
+  .hero-actions .btn{flex:1 1 auto;justify-content:center;padding:13px 18px}
+  .hero-actions .btn-gold{flex-basis:100%}
+  .hero-facts b{font-size:1.55rem}
+  .hero-visual{width:calc(100% - 24px)}
+  .hero-card{left:-12px;bottom:26px;padding:12px 14px}
+  .hero-card img{width:36px}
+  .hero-card b{font-size:1.25rem}
+  .hero-pill{right:-10px;top:40px}
+  .hero-ring{inset:-10px -10px auto -10px;height:calc(100% + 20px)}
+  h2.title{font-size:2.1rem}
+  .brand img{height:32px}
+  .brand b{font-size:1.15rem}
+  .ov-media .float{width:52%;right:-6px;bottom:-24px}
+  .overview .wrap{gap:60px}
+  .pcard h3{font-size:1.7rem}
+  .note-box{padding:24px}
+  .num-row{flex-direction:column;align-items:flex-start}
+  .num-row .acts{width:100%}
+  .num-row .acts .mini{flex:1;justify-content:center;padding:11px}
+  .m-side h3{font-size:2rem}
+  .m-side{padding:24px 20px 30px}
+  .m-type{margin-right:0}
+  .viewer{min-height:52svh}
+  footer{text-align:center}
+  footer .wrap{justify-content:center}
+  .field-row{grid-template-columns:1fr}
+  .fab{display:none}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -8px 24px -10px rgba(0,0,0,.3)}
+  .mbar a{display:flex;align-items:center;justify-content:center;gap:8px;padding:16px;color:#fff;font-weight:600;font-size:.92rem}
+  .mbar svg{width:20px;height:20px}
+  .mbar .c{background:var(--navy)}
+  .mbar .w{background:var(--wa)}
+  .modal{padding:0}
+  .modal-card{border-radius:0;max-height:100svh;height:100svh}
+  .ov-media .sun{display:none}
+  .form{padding:24px}
+}
+.drawer{position:fixed;inset:0;z-index:90;background:var(--navy);color:#fff;display:none;flex-direction:column;justify-content:center;padding:40px}
+.drawer.open{display:flex;animation:fade .3s}
+.drawer a{font-family:"Italiana",serif;font-size:2.4rem;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.drawer .m-close{background:rgba(255,255,255,.1);color:#fff}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88zm8.41-18.3A11.81 11.81 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.94L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.41z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 12h14"/></symbol>
+  <symbol id="i-reset" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></g></symbol>
+  <symbol id="i-zoom" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></g></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m15 18-6-6 6-6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h10"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></g></symbol>
+</svg>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Pacific Tower home">
+      <img class="logo-light" src="assets/logo-white.png" alt="">
+      <img class="logo-dark" src="assets/logo.png" alt="">
+      <div><b>PACIFIC TOWER</b><small>by Pacific Projects</small></div>
+    </a>
+    <nav class="links">
+      <a href="#overview">Overview</a>
+      <a href="#plans">Floor Plans</a>
+      <a href="#specs">Specifications</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-wa js-wa" href="#" data-msg="Hi, I'm interested in Pacific Tower. Please share details."><svg><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+    </div>
+    <button class="burger" id="burger" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <button class="m-close" id="drawerClose" aria-label="Close menu"><svg><use href="#i-x"/></svg></button>
+  <a href="#overview">Overview</a>
+  <a href="#plans">Floor Plans</a>
+  <a href="#specs">Specifications</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <svg class="hero-sun reveal-up" viewBox="0 0 120 34" aria-hidden="true"><g stroke="#d8b983" stroke-width="1"><path d="M60 34V2M60 34 44 4M60 34 76 4M60 34 30 9M60 34 90 9M60 34 18 16M60 34 102 16M60 34 9 25M60 34 111 25M60 34 52 2M60 34 68 2M60 34 37 6M60 34 83 6M60 34 24 12M60 34 96 12"/></g></svg>
+      <div class="eyebrow reveal-up" style="animation-delay:.1s">A project by Pacific Projects</div>
+      <h1 class="reveal-up" style="animation-delay:.2s"><span>Pacific</span><span>Tower</span></h1>
+      <p class="tag reveal-up" style="animation-delay:.3s">Premium 3 BHK residences and a full-floor 4 BHK option on Shantinagar Road, Nagpur — thoughtfully planned, quietly elegant.</p>
+      <div class="hero-actions reveal-up" style="animation-delay:.4s">
+        <a href="#plans" class="btn btn-gold">View Floor Plans</a>
+        <a href="#" class="btn btn-wa js-wa" data-msg="Hi, I'm interested in Pacific Tower. Please share price and availability."><svg><use href="#i-wa"/></svg>WhatsApp</a>
+        <a href="tel:+919765189110" class="btn btn-ghost"><svg><use href="#i-phone"/></svg>Call Now</a>
+      </div>
+      <div class="hero-facts reveal-up" style="animation-delay:.5s">
+        <div><b>G+6</b><span>Floors</span></div>
+        <div><b>3 &amp; 4</b><span>BHK homes</span></div>
+        <div><b>960</b><span>Sq ft carpet (up to)</span></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal-up" style="animation-delay:.25s">
+      <div class="hero-ring"></div>
+      <div class="hero-arch"><img src="assets/tower-angle-3.jpg" alt="Pacific Tower elevation"></div>
+      <div class="hero-pill">Bookings open</div>
+      <div class="hero-card"><img src="assets/logo.png" alt=""><div><b>Shantinagar</b><span>24 m wide road · Nagpur</span></div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== OVERVIEW ===== -->
+<section class="overview" id="overview">
+  <div class="wrap">
+    <div class="ov-media rv">
+      <svg class="sun" viewBox="0 0 100 50" aria-hidden="true"><g stroke="#b48c52" stroke-width="1.2"><path d="M50 50 L50 5"/><path d="M50 50 L30 8"/><path d="M50 50 L70 8"/><path d="M50 50 L13 20"/><path d="M50 50 L87 20"/><path d="M50 50 L4 38"/><path d="M50 50 L96 38"/><path d="M50 50 L40 6"/><path d="M50 50 L60 6"/><path d="M50 50 L21 13"/><path d="M50 50 L79 13"/></g></svg>
+      <div class="arch"><img src="assets/tower-front.jpg" alt="Front elevation of Pacific Tower" loading="lazy"></div>
+      <div class="float"><img src="assets/interior-living.jpg" alt="Living room interior" loading="lazy"></div>
+    </div>
+    <div class="rv">
+      <span class="eyebrow">The Residence</span>
+      <h2 class="title">Modern living,<br>crafted to last.</h2>
+      <p class="lead">Pacific Tower is a boutique G+6 residential building with just two homes on every floor — so you enjoy more privacy, more light and cross-ventilation on every side. Clean white façades, curved edges and warm timber accents give it a timeless presence on Shantinagar Road.</p>
+      <div class="ov-points">
+        <div class="ov-point"><b>RCC framed structure</b><span>Built for strength and stability</span></div>
+        <div class="ov-point"><b>Kone / Johnson lifts</b><span>Or equivalent brand</span></div>
+        <div class="ov-point"><b>Covered stilt parking</b><span>Ground floor, for residents</span></div>
+        <div class="ov-point"><b>CCTV security</b><span>Gate, parking and lobby</span></div>
+      </div>
+      <div class="hero-actions" style="margin-top:30px">
+        <a href="#plans" class="btn btn-navy">View floor plans</a>
+        <a href="#specs" class="btn btn-line">Specifications</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FLOOR PLANS ===== -->
+<section class="plans" id="plans">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Floor Plans</span>
+      <h2 class="title">Choose your home</h2>
+      <p class="lead">Spacious 3 BHK layouts and a full-floor 4 BHK option. Click any plan to open it full-screen, zoom into every room and see the sizes.</p>
+    </div>
+    <div class="pcards" id="pcards"></div>
+  </div>
+</section>
+
+<!-- ===== SPECIFICATIONS ===== -->
+<section class="specs" id="specs">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow" style="color:var(--gold-l)">Specifications</span>
+      <h2 class="title">Quality in every detail</h2>
+      <p class="lead">Branded fittings, durable finishes and safety built in — here's what goes into every home at Pacific Tower.</p>
+    </div>
+    <div class="spec-grid">
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 10h.01M15 10h.01"/></svg></div>
+        <h4>Structure &amp; Walls</h4><ul><li>RCC framed structure</li><li>150 mm external, 115 mm internal walls</li><li>12 mm plain plaster inside, sand-faced plaster outside</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 12h18M12 3v18"/></svg></div>
+        <h4>Flooring</h4><ul><li>2' × 2' vitrified tiles in all rooms</li><li>Anti-skid vitrified flooring in bathrooms</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M15 12h.01"/></svg></div>
+        <h4>Doors &amp; Windows</h4><ul><li>Steel main door with multi-level security</li><li>RCC framed laminated flush internal doors</li><li>Powder-coated aluminium windows with MS grills</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-3zM6 12V5a2 2 0 0 1 4 0M7 20l-1 2M17 20l1 2"/></svg></div>
+        <h4>Bathrooms</h4><ul><li>Ceramic wall tiles up to 7 ft</li><li>Jaquar / ESS ESS / Graffiti fittings</li><li>Aluminium louvre ventilation, geyser points (2.5 mm wiring)</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18v10H3zM3 15h18M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+        <h4>Kitchen</h4><ul><li>Granite platform with stainless steel sink</li><li>2 ft tiled dado</li><li>Points for fridge, microwave, mixer, aqua guard &amp; washing machine</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg></div>
+        <h4>Electrical</h4><ul><li>Concealed wiring, ISI-marked modular switches</li><li>Anchor / Legrand or equivalent</li><li>AC points with 4 mm wiring, TV cable points in hall</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 11V4H5v7h14zM12 11v4M10 15h4v7h-4z"/></svg></div>
+        <h4>Painting</h4><ul><li>Acrylic emulsion over two coats of putty</li><li>Waterproof emulsion on exterior walls</li></ul></div>
+      <div class="spec rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h4>Lift &amp; Safety</h4><ul><li>Kone, Johnson or equivalent lift</li><li>Waterproofing in all bathrooms &amp; balconies</li><li>Steel railings on staircases</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTERIORS ===== -->
+<section class="interiors">
+  <div class="wrap int-head rv" style="display:block">
+    <span class="eyebrow">Inside the Home</span>
+    <h2 class="title">Spaces you'll love coming back to</h2>
+  </div>
+  <div class="wrap">
+    <figure class="int-card rv"><img src="assets/interior-living.jpg" alt="Living room" loading="lazy"><figcaption><b>Living</b><span>14'9" × 11'0" living room with balcony</span></figcaption></figure>
+    <figure class="int-card rv"><img src="assets/interior-bedroom.jpg" alt="Bedroom" loading="lazy"><figcaption><b>Bedrooms</b><span>Three bedrooms, master 14'3" × 11'6"</span></figcaption></figure>
+    <figure class="int-card rv"><img src="assets/interior-kitchen.jpg" alt="Kitchen" loading="lazy"><figcaption><b>Kitchen</b><span>Granite platform, SS sink, utility area</span></figcaption></figure>
+  </div>
+</section>
+
+<!-- ===== AMENITIES ===== -->
+<section class="amen">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Building Features</span>
+      <h2 class="title">Everything taken care of</h2>
+    </div>
+    <div class="amen-grid rv">
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.5 4.2M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.7z"/><circle cx="12" cy="12" r="3"/></svg><b>CCTV Surveillance</b><span>Main gate, parking and lobby</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7s-6 6.5-6 11.3a6 6 0 0 0 12 0c0-4.8-6-11.3-6-11.3z"/></svg><b>Assured Water</b><span>Corporation supply, borewell &amp; overhead tank</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 0 1 16 0M2 18h20M12 6v2"/></svg><b>Rainwater Harvesting</b><span>Plus anti-termite treatment</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg><b>Covered Parking</b><span>Ground-floor stilt parking for residents</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8v18H8zM12 7v4"/></svg><b>Lift</b><span>Kone, Johnson or equivalent</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM4 9h16M9 14h6"/></svg><b>Letter Boxes</b><span>Separate boxes &amp; name plates for owners</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12M12 12C12 7 8 4 3 4c0 5 4 8 9 8zM12 12c0-4 3-7 8-7 0 4-3 7-8 7z"/></svg><b>Landscaped Greens</b><span>Gardening in common areas</span></div>
+      <div class="amen-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l9-7 9 7v11M3 21h18"/></svg><b>Waterproofing</b><span>All bathrooms and balconies</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Gallery</span>
+      <h2 class="title">See Pacific Tower</h2>
+    </div>
+    <div class="gallery-grid rv" id="gallery-grid">
+      <div class="g-item big" data-src="assets/tower-angle-1.jpg"><img src="assets/tower-angle-1.jpg" alt="Pacific Tower corner view" loading="lazy"></div>
+      <div class="g-item tall" data-src="assets/tower-front.jpg"><img src="assets/tower-front.jpg" alt="Front elevation" loading="lazy"></div>
+      <div class="g-item tall" data-src="assets/tower-angle-2.jpg"><img src="assets/tower-angle-2.jpg" alt="Side elevation" loading="lazy"></div>
+      <div class="g-item" data-src="assets/interior-bedroom.jpg"><img src="assets/interior-bedroom.jpg" alt="Bedroom" loading="lazy"></div>
+      <div class="g-item" data-src="assets/interior-kitchen.jpg"><img src="assets/interior-kitchen.jpg" alt="Kitchen" loading="lazy"></div>
+      <div class="g-item" data-src="assets/tower-angle-3.jpg"><img src="assets/tower-angle-3.jpg" alt="Tower at dusk" loading="lazy"></div>
+      <div class="g-item" data-src="assets/interior-living.jpg"><img src="assets/interior-living.jpg" alt="Living room" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NOTE ===== -->
+<section class="note">
+  <div class="wrap">
+    <div class="note-box rv">
+      <div class="ic"><svg><use href="#i-alert"/></svg></div>
+      <div><h4>Extra charges</h4><ul><li>MSEB and water meter connection charges</li><li>Stamp duty and registration charges</li><li>GST and other applicable taxes or duties</li></ul></div>
+      <div><h4>Additional work</h4><ul><li>Any extra work requested by the buyer will be charged additionally.</li><li>Please review all terms carefully to understand the full scope of charges and specifications.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow" style="color:var(--gold-l)">Book a Visit</span>
+      <h2 class="title">Let's find your home</h2>
+      <p class="lead">Call or WhatsApp us directly for prices, availability and a site visit.</p>
+      <div class="people" id="people"></div>
+      <a class="mail" href="mailto:pacificprojectsngp@gmail.com"><svg><use href="#i-mail"/></svg>pacificprojectsngp@gmail.com</a>
+    </div>
+    <form class="form rv" id="enqForm">
+      <h3>Quick Enquiry</h3>
+      <p>Fill this in and it opens WhatsApp with your message ready to send.</p>
+      <div class="field-row">
+        <div class="field"><label for="fName">Your name</label><input id="fName" required placeholder="Full name"></div>
+        <div class="field"><label for="fPhone">Phone</label><input id="fPhone" type="tel" placeholder="Mobile number"></div>
+      </div>
+      <div class="field"><label for="fFlat">Interested in</label><select id="fFlat"></select></div>
+      <div class="field"><label for="fMsg">Message</label><textarea id="fMsg" rows="3" placeholder="Preferred visit time, questions…"></textarea></div>
+      <button class="btn btn-wa" type="submit"><svg><use href="#i-wa"/></svg>Send on WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="#top" class="brand"><img src="assets/logo-white.png" alt="" style="height:34px"><div><b style="font-size:1.2rem">PACIFIC TOWER</b><small>by Pacific Projects</small></div></a>
+    <span>Shantinagar Road, Nagpur · Images are artistic impressions; plans are indicative.</span>
+    <span>© <span id="yr"></span> Pacific Projects</span>
+  </div>
+</footer>
+
+<!-- Floating buttons -->
+<div class="fab">
+  <a class="f-wa js-wa" href="#" data-msg="Hi, I'm interested in Pacific Tower. Please share details." aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
+  <a class="f-call" href="tel:+919765189110" aria-label="Call"><svg><use href="#i-phone"/></svg></a>
+</div>
+<div class="mbar">
+  <a class="c" href="tel:+919765189110"><svg><use href="#i-phone"/></svg>Call</a>
+  <a class="w js-wa" href="#" data-msg="Hi, I'm interested in Pacific Tower. Please share details."><svg><use href="#i-wa"/></svg>WhatsApp</a>
+</div>
+
+<!-- ===== FLAT / PLAN MODAL ===== -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-card">
+    <button class="m-close" data-close aria-label="Close"><svg><use href="#i-x"/></svg></button>
+    <div class="viewer" id="viewer">
+      <span class="v-badge" id="vBadge">Drag to pan · scroll to zoom</span>
+      <img id="vImg" alt="Floor plan">
+      <div class="v-ctrls">
+        <button id="zIn" aria-label="Zoom in"><svg><use href="#i-plus"/></svg></button>
+        <button id="zOut" aria-label="Zoom out"><svg><use href="#i-minus"/></svg></button>
+        <button id="zReset" aria-label="Reset zoom"><svg><use href="#i-reset"/></svg></button>
+      </div>
+    </div>
+    <div class="m-side" id="mSide"></div>
+  </div>
+</div>
+
+<script>
+/* =========================================================
+   CONFIG — edit these to update the site
+   ========================================================= */
+const CONTACTS = [
+  { name: "Mohsin Ali",  phones: ["+919765189110", "+918329970828"] },
+  { name: "Husain Rafi", phones: ["+918435152000", "+917020138429"] }
+];
+const WHATSAPP = "919765189110";          // number that receives WhatsApp enquiries
+
+/* Layout types.  rooms: [name, size as written on the architect's plan] */
+const LAYOUTS = {
+  A: { name: "3 BHK · Type A", img: "assets/plan-3bhk-a.jpg",
+       rooms: [["Master Bedroom","14'3\" × 11'6\""],["Living","14'9\" × 11'0\""],["Dining","10'3\" × 12'2\""],["Kitchen","8'0\" × 8'0\""],["Bedroom 2","10'3\" × 13'4\""],["Bedroom 3","12'6\" × 10'1\""],["Balcony","4'0\" × 10'9\""],["Utility","4'6\" × 8'0\""]] },
+  B: { name: "3 BHK · Type B", img: "assets/plan-3bhk-b.jpg",
+       rooms: [["Master Bedroom","14'3\" × 11'6\""],["Living","14'9\" × 11'0\""],["Dining","11'4\" × 11'0\""],["Kitchen","8'0\" × 10'9\""],["Bedroom 2","11'3\" × 11'0\""],["Bedroom 3","10'5\" × 10'6\""],["Balcony","4'0\" × 10'9\""],["Utility","8'0\" × 4'6\""]] }
+};
+
+/* ========================================================= */
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const waLink = msg => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
+const fmt = n => n.toLocaleString("en-IN",{maximumFractionDigits:0});
+
+if (matchMedia("(pointer:coarse)").matches) $("#vBadge").textContent = "Pinch or double-tap to zoom";
+$("#yr").textContent = new Date().getFullYear();
+
+/* WhatsApp links */
+function bindWa(){ $$(".js-wa").forEach(a => { a.href = waLink(a.dataset.msg); a.target = "_blank"; a.rel = "noopener"; }); }
+bindWa();
+
+/* Nav */
+const nav = $("#nav");
+const onScroll = () => nav.classList.toggle("solid", scrollY > 60);
+addEventListener("scroll", onScroll, {passive:true}); onScroll();
+$("#burger").onclick = () => $("#drawer").classList.add("open");
+$("#drawerClose").onclick = () => $("#drawer").classList.remove("open");
+$$("#drawer a").forEach(a => a.onclick = () => $("#drawer").classList.remove("open"));
+
+/* Reveal on scroll */
+const io = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }), {threshold:.12});
+$$(".rv").forEach(el => io.observe(el));
+
+/* ---------- Floor plan cards ---------- */
+const PLANS = [
+  { k:"A",    tag:"3 BHK", title:"3 BHK · Type A", img:LAYOUTS.A.img, carpet:948.42, plinth:1078.23, rooms:LAYOUTS.A.rooms,
+    desc:"Three bedrooms, living with balcony, separate dining, kitchen with utility." },
+  { k:"B",    tag:"3 BHK", title:"3 BHK · Type B", img:LAYOUTS.B.img, carpet:960.36, plinth:1094.38, rooms:LAYOUTS.B.rooms,
+    desc:"Three bedrooms, living with balcony, open dining and a long kitchen with utility." },
+  { k:"bhk4", tag:"4 BHK", title:"4 BHK · Full Floor", img:"assets/plan-4bhk.jpg",
+    desc:"A full-floor home: drawing room, dining-cum-living, four bedrooms, study and store.",
+    meta:["Full floor","4 Bedrooms","Study + Store"] }
+];
+const planMeta = P => P.meta || [`${fmt(P.carpet)} sq ft carpet`, `${fmt(P.plinth)} sq ft plinth`];
+$("#pcards").innerHTML = PLANS.map(P => `
+  <button class="pcard rv" data-plan="${P.k}" aria-label="${P.title} — click to open floor plan">
+    <div class="thumb">
+      <span class="tag">${P.tag}</span>
+      <img src="${P.img}" alt="${P.title} floor plan" loading="lazy">
+      <span class="open"><svg><use href="#i-zoom"/></svg>Click to open floor plan</span>
+    </div>
+    <div class="body">
+      <h3>${P.title}</h3>
+      <p>${P.desc}</p>
+      <div class="meta">${planMeta(P).map(m=>`<span>${m}</span>`).join("")}</div>
+    </div>
+  </button>`).join("");
+$$(".pcard").forEach(c => { io.observe(c); c.onclick = () => openPlan(c.dataset.plan); });
+
+/* ---------- Modal + zoom viewer ---------- */
+const modal = $("#modal"), side = $("#mSide"), vImg = $("#vImg"), viewer = $("#viewer");
+let z = 1, tx = 0, ty = 0, lastFocus = null, currentPlan = null;
+const apply = () => vImg.style.transform = `translate(calc(-50% + ${tx}px), calc(-50% + ${ty}px)) scale(${z})`;
+const resetZoom = () => { z=1; tx=0; ty=0; apply(); };
+const zoomBy = (k, cx, cy) => {
+  const nz = Math.min(5, Math.max(1, z*k)); const r = viewer.getBoundingClientRect();
+  const ox = (cx ?? r.left+r.width/2) - (r.left+r.width/2), oy = (cy ?? r.top+r.height/2) - (r.top+r.height/2);
+  tx = ox - (ox - tx) * (nz/z); ty = oy - (oy - ty) * (nz/z); z = nz; if(z===1){tx=0;ty=0;} apply();
+};
+$("#zIn").onclick = () => zoomBy(1.4); $("#zOut").onclick = () => zoomBy(1/1.4); $("#zReset").onclick = resetZoom;
+viewer.addEventListener("wheel", e => { e.preventDefault(); zoomBy(e.deltaY<0?1.15:1/1.15, e.clientX, e.clientY); }, {passive:false});
+viewer.addEventListener("dblclick", e => z>1 ? resetZoom() : zoomBy(2.2, e.clientX, e.clientY));
+const pts = new Map(); let pinch0 = 0, z0 = 1;
+viewer.addEventListener("pointerdown", e => { if(e.target.closest(".v-ctrls")) return; viewer.setPointerCapture(e.pointerId); pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); viewer.classList.add("dragging");
+  if(pts.size===2){ const [a,b]=[...pts.values()]; pinch0=Math.hypot(a.x-b.x,a.y-b.y); z0=z; } });
+viewer.addEventListener("pointermove", e => { if(!pts.has(e.pointerId)) return; const p = pts.get(e.pointerId);
+  if(pts.size===2){ pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); const [a,b]=[...pts.values()]; const d=Math.hypot(a.x-b.x,a.y-b.y); z=Math.min(5,Math.max(1,z0*d/pinch0)); if(z===1){tx=0;ty=0;} apply(); return; }
+  if(z>1){ tx += e.clientX-p.x; ty += e.clientY-p.y; apply(); } pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); });
+const endPt = e => { pts.delete(e.pointerId); if(!pts.size) viewer.classList.remove("dragging"); };
+viewer.addEventListener("pointerup", endPt); viewer.addEventListener("pointercancel", endPt);
+
+function showModal(img, alt){
+  vImg.src = img; vImg.alt = alt; resetZoom();
+  if(!modal.classList.contains("open")){ lastFocus = document.activeElement; modal.classList.add("open"); document.body.style.overflow="hidden"; setTimeout(()=>modal.querySelector(".m-close").focus(),50); }
+}
+function closeModal(){ modal.classList.remove("open"); document.body.style.overflow=""; currentPlan=null; lastFocus && lastFocus.focus && lastFocus.focus(); }
+modal.addEventListener("click", e => { if(e.target.closest("[data-close]")) closeModal(); });
+addEventListener("keydown", e => {
+  if(!modal.classList.contains("open")) return;
+  if(e.key==="Escape") closeModal();
+  const i = PLANS.findIndex(P=>P.k===currentPlan);
+  if(i>-1 && e.key==="ArrowRight" && PLANS[i+1]) openPlan(PLANS[i+1].k);
+  if(i>-1 && e.key==="ArrowLeft" && PLANS[i-1]) openPlan(PLANS[i-1].k);
+});
+
+const actionsHTML = (msg) => `
+  <div class="m-actions">
+    <a class="btn btn-wa" target="_blank" rel="noopener" href="${waLink(msg)}"><svg><use href="#i-wa"/></svg>Enquire on WhatsApp</a>
+    <a class="btn btn-navy" href="tel:${CONTACTS[0].phones[0]}"><svg><use href="#i-phone"/></svg>Call ${CONTACTS[0].name}</a>
+  </div>`;
+
+function openPlan(k){
+  const P = PLANS.find(x=>x.k===k); if(!P) return; currentPlan = k;
+  showModal(P.img, `${P.title} floor plan`);
+  side.innerHTML = `
+    <div class="m-type">${PLANS.map(x=>`<button data-sw="${x.k}" class="${x.k===k?"on":""}">${x.k==="bhk4"?"4 BHK":"3 BHK "+x.k}</button>`).join("")}</div>
+    <span class="eyebrow">Floor Plan</span>
+    <h3 id="mTitle">${P.title}</h3>
+    <div class="floor-name">${P.desc}</div>
+    ${P.carpet ? `<div class="area-cards">
+      <div class="area-card"><b>${fmt(P.carpet)}</b><span>Carpet sq ft</span></div>
+      <div class="area-card"><b>${fmt(P.plinth)}</b><span>Plinth sq ft</span></div></div>` : ""}
+    ${P.rooms ? `<ul class="rooms">${P.rooms.map(r=>`<li><span>${r[0]}</span><span>${r[1]}</span></li>`).join("")}</ul>`
+              : `<ul class="rooms">${P.meta.map(m=>`<li><span>${m}</span><span>✓</span></li>`).join("")}</ul>`}
+    ${actionsHTML(`Hi, I'm interested in the ${P.title} flat at Pacific Tower. Please share price and availability.`)}
+    <p class="disclaimer">Plans are indicative and may vary slightly on site. Areas as per architect's area statement.</p>`;
+  side.querySelectorAll("[data-sw]").forEach(b => b.onclick = () => openPlan(b.dataset.sw));
+}
+
+/* ---------- Gallery lightbox (reuses viewer) ---------- */
+$$(".g-item").forEach(g => g.onclick = () => {
+  currentPlan = null; showModal(g.dataset.src, g.querySelector("img").alt);
+  side.innerHTML = `<span class="eyebrow">Gallery</span><h3 id="mTitle">Pacific Tower</h3><div class="floor-name">${g.querySelector("img").alt}. Artistic impression.</div>${actionsHTML("Hi, I saw Pacific Tower and would like to know more.")}`;
+});
+
+/* ---------- Contacts ---------- */
+$("#people").innerHTML = CONTACTS.map(c => `
+  <div class="person">
+    <div class="person-top"><div class="avatar">${c.name[0]}</div><div><b>${c.name}</b><small>Booking &amp; site visits</small></div></div>
+    ${c.phones.map(p => `<div class="num-row"><span class="n">${p.replace(/^\+91/,"+91 ").replace(/(\d{5})(\d{5})$/,"$1 $2")}</span>
+      <span class="acts"><a class="mini call" href="tel:${p}"><svg><use href="#i-phone"/></svg>Call</a>
+      <a class="mini wa" target="_blank" rel="noopener" href="https://wa.me/${p.replace(/\D/g,"")}?text=${encodeURIComponent("Hi "+c.name+", I'm interested in Pacific Tower.")}"><svg><use href="#i-wa"/></svg>WhatsApp</a></span></div>`).join("")}
+  </div>`).join("");
+
+/* ---------- Enquiry form → WhatsApp ---------- */
+const sel = $("#fFlat");
+sel.innerHTML = `<option>3 BHK flat</option><option>4 BHK full-floor home</option>`;
+$("#enqForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const msg = `Hi, I'm ${$("#fName").value.trim()}${$("#fPhone").value.trim()?` (${$("#fPhone").value.trim()})`:""}.\nInterested in: ${sel.value} at Pacific Tower.${$("#fMsg").value.trim()?`\n${$("#fMsg").value.trim()}`:""}`;
+  window.open(waLink(msg), "_blank", "noopener");
+});
+</script>
+</body>
+</html>
